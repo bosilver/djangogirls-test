@@ -11,4 +11,5 @@ urlpatterns = patterns('',
     url(r'^$', 'trips.views.home'),
     url(r'^post/(?P<id>\d+)/$', 'trips.views.post_detail',
         name='post_detail'),
+
 )
