@@ -86,7 +86,6 @@ TEMPLATE_DIRS = (
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
-    'templates/static',
 )
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
